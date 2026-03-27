@@ -1,12 +1,12 @@
 {
   "siteName": "Union for Everyone",
-  "campaignLabel": "CUPE 3906 Local Election Campaign",
-  "heroTitle": "Building a union that includes, supports, and fights for everyone.",
-  "heroLede": "Meet our full slate of executive candidates. Click any profile to read their statement, see their department, and contact them directly.",
-  "introTitle": "13 candidates, one shared campaign vision",
-  "introText": "This template uses placeholder names, statements, and images so you can quickly replace them with your real campaign details.",
-  "footerText": "Union for Everyone | Editable campaign website template for CUPE 3906",
-  "profileFooterText": "Union for Everyone | CUPE 3906 campaign profile",
+  "campaignLabel": "CUPE 3906 Executive Election Campaign",
+  "heroTitle": "A stronger, more democratic union for every member.",
+  "heroLede": "We are running to build a CUPE 3906 that listens, communicates clearly, and fights for better working conditions, stronger representation, and a more connected union community. Meet our team and learn why each candidate is running.",
+  "introTitle": "13 candidates, 1 shared campaign vision",
+  "introText": "Our slate brings together candidates from across departments who are committed to advocacy, accessibility, accountability, and collective action. Click on any candidate to learn more about their background, priorities, and vision for the union.",
+  "footerText": "Union for Everyone | CUPE 3906 election campaign",
+  "profileFooterText": "Union for Everyone | Candidate profile",
   "candidates": [
     {
       "id": "candidate-01",
