@@ -109,12 +109,32 @@
     },
     {
       "id": "candidate-12",
-      "name": "Noah Sinclair",
-      "position": "Unit 1 Representative",
-      "department": "English and Cultural Studies",
-      "email": "noah.sinclair@example.com",
-      "image": "assets/placeholder-profile.svg",
-      "statement": "I am running for Unit 1 Representative to bring everyday workplace concerns forward quickly and consistently. I want to listen well, report back clearly, and help members feel more connected to union decision-making."
+      "name": "Pema Sherpa",
+      "position": "International Officer",
+      "department": "Religious Studies",
+      "email": "sherpp1@mcmaster.ca",
+      "image": "assets/Pema.jpeg",
+      "statement": "My name is Pema Sherpa. As a PhD candidate in Religious Studies and a CUPE steward for my department, I understand firsthand the challenges international students face in our academic workplace. I'm running for International Officer because I believe every international member deserves fair treatment, clear information, and strong advocacy. Our union has made important progress, but there's more work to do. I'm committed to practical solutions that will make a real difference in your daily working life.
+        My Platform: Two Key Priorities
+        1. Fair Treatment for International Teaching Assistants 
+        The Problem:
+        1.	International TAs are expected to grade as fast as native English speakers with arbitrary time limits
+        2.	Many are assigned 80+ students when contracts specify 60-65 maximum
+        3.	Workload violations go unreported due to fear of consequences
+        My Solutions:
+        1.	Advocate for reasonable grading standards that account for language differences
+        2.	Ensure strict enforcement of TA workload caps in existing contracts
+        3.	Create a confidential reporting system for workload violations
+        4.	Negotiate clear workload guidelines in future collective agreements
+        2. Better Access to Union Services & Information 
+        The Problem:
+        1.	Many international students don't know CUPE 3069 offers grievance support, legal aid, and workplace advocacy
+        2.	We pay dues but don't know how to access our resources
+        3.	Information gaps leave members without support when they need it most
+        My Solutions:
+        1.	Host monthly office hours specifically for international members
+        2.	Partner with international student associations to share union information during visa and work permit seasons
+        3.	Create multilingual resources explaining your rights and available services"
     },
     {
       "id": "candidate-13",
