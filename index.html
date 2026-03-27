@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Union for Everyone | CUPE 3906 Campaign</title>
+  <meta name="description" content="Campaign website for the Union for Everyone CUPE 3906 executive team.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+  <header class="hero">
+    <nav class="topbar">
+      <a class="brand" href="index.html" id="brand-name">Union for Everyone</a>
+      <div class="topbar__links">
+        <a class="nav-link" href="#team">Meet the Team</a>
+        <a class="nav-link nav-link--button" href="admin/">Edit Site</a>
+      </div>
+    </nav>
+    <div class="hero__content">
+      <p class="eyebrow" id="campaign-label">CUPE 3906 Local Election Campaign</p>
+      <p class="hero__kicker">McMaster workers deserve a union that is visible, organized, and accountable.</p>
+      <h1 id="hero-title">Building a union that includes, supports, and fights for everyone.</h1>
+      <p class="hero__lede" id="hero-lede">
+        Meet our full slate of executive candidates. Click any profile to read their statement, see their department, and contact them directly.
+      </p>
+      <div class="hero__stats">
+        <div class="hero-stat">
+          <strong id="candidate-count">13</strong>
+          <span>Candidates</span>
+        </div>
+        <div class="hero-stat">
+          <strong>1 Slate</strong>
+          <span>Shared campaign</span>
+        </div>
+        <div class="hero-stat">
+          <strong>CUPE 3906</strong>
+          <span>Local election</span>
+        </div>
+      </div>
+      <div class="hero__actions">
+        <a class="button button--primary" href="#team">View Candidates</a>
+        <a class="button button--ghost" href="candidate.html?id=candidate-01">Preview Candidate Page</a>
+        <a class="button button--ghost" href="#about-campaign">Campaign Vision</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="message-band" id="about-campaign">
+      <div class="message-band__inner">
+        <p class="eyebrow">Why This Website Works</p>
+        <h2>A clean slate page for voters, with editable candidate profiles for your full team.</h2>
+        <p id="intro-text">This template uses placeholder names, statements, and images so you can quickly replace them with your real campaign details.</p>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="section-heading">
+        <p class="eyebrow">Our Team</p>
+        <h2 id="intro-title">13 candidates, one shared campaign vision</h2>
+      </div>
+      <div class="intro__cards">
+        <article class="intro-card">
+          <h3>Homepage</h3>
+          <p>Every candidate appears with a photo, name, department, and the position they are running for.</p>
+        </article>
+        <article class="intro-card">
+          <h3>Profile Pages</h3>
+          <p>Each candidate gets their own page with email, department, statement, and a large feature image.</p>
+        </article>
+        <article class="intro-card">
+          <h3>Easy Editing</h3>
+          <p>Swap text and upload real photos through the browser admin page, or edit one JSON file directly.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="team-grid-section" id="team">
+      <div class="section-heading section-heading--row">
+        <div>
+          <p class="eyebrow">Candidate Slate</p>
+          <h2>Meet the full team</h2>
+        </div>
+        <p class="section-note">Click any candidate to open their full profile page.</p>
+      </div>
+      <div class="featured-candidate" id="featured-candidate" aria-live="polite"></div>
+      <div class="team-grid" id="candidate-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p id="footer-text">Union for Everyone | Editable campaign website template for CUPE 3906</p>
+  </footer>
+
+  <script id="campaign-data" type="application/json">
+    {
+      "siteName": "Union for Everyone",
+      "campaignLabel": "CUPE 3906 Local Election Campaign",
+      "heroTitle": "Building a union that includes, supports, and fights for everyone.",
+      "heroLede": "Meet our full slate of executive candidates. Click any profile to read their statement, see their department, and contact them directly.",
+      "introTitle": "13 candidates, one shared campaign vision",
+      "introText": "This template uses placeholder names, statements, and images so you can quickly replace them with your real campaign details.",
+      "footerText": "Union for Everyone | Editable campaign website template for CUPE 3906",
+      "profileFooterText": "Union for Everyone | CUPE 3906 campaign profile",
+      "candidates": [
+        {
+          "id": "candidate-01",
+          "name": "Avery Bennett",
+          "position": "President",
+          "department": "Labour Studies",
+          "email": "avery.bennett@example.com",
+          "image": "assets/placeholder-profile.svg",
+          "statement": "I am running for President because I believe our union is strongest when every worker feels heard, respected, and represented. I want to strengthen member outreach, improve transparency in decision-making, and make sure our bargaining priorities reflect the daily realities of graduate workers across campus."
+        },
+        {
+          "id": "candidate-02",
+          "name": "Sofia Malik",
+          "position": "Vice-President",
+          "department": "Political Science",
+          "email": "sofia.malik@example.com",
+          "image": "assets/placeholder-profile.svg",
+          "statement": "I am running for Vice-President to help build a more responsive and connected union. My focus is on communication, organizing, and making sure members can easily understand how to get support, raise concerns, and participate in union life."
+        },
+        {
+          "id": "candidate-03",
+          "name": "Jordan Chen",
+          "position": "Secretary-Treasurer",
+          "department": "Economics",
+          "email": "jordan.chen@example.com",
+          "image": "assets/placeholder-profile.svg",
+          "statement": "I am running for Secretary-Treasurer because careful stewardship of union resources matters. I want members to feel confident that finances are managed responsibly, updates are easy to follow, and budgeting reflects the priorities we set together."
+        },
+        {
+          "id": "candidate-04",
+          "name": "Priya Nair",
+          "position": "Recording Secretary",
+          "department": "Health Research Methodology",
+          "email": "priya.nair@example.com",
+          "image": "assets/placeholder-profile.svg",
+          "statement": "I am running for Recording Secretary because good records create accountability. I want meeting notes, decisions, and follow-up actions to be clear, timely, and accessible so members can stay informed and engaged."
+        },
+        {
+          "id": "candidate-05",
+          "name": "Daniel Okoye",
+          "position": "Chief Steward",
+          "department": "Engineering Physics",
+          "email": "daniel.okoye@example.com",
+          "image": "assets/placeholder-profile.svg",
+          "statement": "I am running for Chief Steward to strengthen workplace support across departments. Members deserve responsive representation, clear grievance guidance, and a union culture where nobody feels alone when problems arise."
+        },
+        {
+          "id": "candidate-06",
+          "name": "Mina Haddad",
+          "position": "Equity Officer",
+          "department": "Sociology",
+          "email": "mina.haddad@example.com",
+          "image": "assets/placeholder-profile.svg",
+          "statement": "I am running for Equity Officer because inclusion has to be active, not symbolic. I want to support anti-oppression work, improve access to union spaces, and make sure our campaigns reflect the needs of marginalized members."
+        },
+        {
+          "id": "candidate-07",
+          "name": "Ethan Rodrigues",
+          "position": "Communications Officer",
+          "department": "History",
+          "email": "ethan.rodrigues@example.com",
+          "image": "assets/placeholder-profile.svg",
+          "statement": "I am running for Communications Officer because members need updates that are timely, clear, and welcoming. I want to improve outreach through better messaging, stronger visual materials, and easier access to key information."
+        },
+        {
+          "id": "candidate-08",
+          "name": "Fatima Noor",
+          "position": "Health and Safety Officer",
+          "department": "Kinesiology",
+          "email": "fatima.noor@example.com",
+          "image": "assets/placeholder-profile.svg",
+          "statement": "I am running for Health and Safety Officer because healthy workplaces are a union issue. I want to elevate members' concerns around workload, stress, and physical safety while pushing for more proactive protections."
+        },
+        {
+          "id": "candidate-09",
+          "name": "Lucas Pereira",
+          "position": "Social Events Coordinator",
+          "department": "Anthropology",
+          "email": "lucas.pereira@example.com",
+          "image": "assets/placeholder-profile.svg",
+          "statement": "I am running for Social Events Coordinator because community matters. I want to help create events that are accessible, affordable, and meaningful so members can build relationships beyond moments of crisis."
+        },
+        {
+          "id": "candidate-10",
+          "name": "Harpreet Gill",
+          "position": "Grievance Officer",
+          "department": "Psychology",
+          "email": "harpreet.gill@example.com",
+          "image": "assets/placeholder-profile.svg",
+          "statement": "I am running for Grievance Officer because workers need steady support when navigating difficult situations. I want to make the grievance process more approachable and ensure members know what options are available to them."
+        },
+        {
+          "id": "candidate-11",
+          "name": "Nadia El-Sayed",
+          "position": "International Members Representative",
+          "department": "Chemistry",
+          "email": "nadia.elsayed@example.com",
+          "image": "assets/placeholder-profile.svg",
+          "statement": "I am running for International Members Representative because international students and workers face distinct barriers that deserve focused advocacy. I want to improve information-sharing, support, and solidarity across the local."
+        },
+        {
+          "id": "candidate-12",
+          "name": "Noah Sinclair",
+          "position": "Unit 1 Representative",
+          "department": "English and Cultural Studies",
+          "email": "noah.sinclair@example.com",
+          "image": "assets/placeholder-profile.svg",
+          "statement": "I am running for Unit 1 Representative to bring everyday workplace concerns forward quickly and consistently. I want to listen well, report back clearly, and help members feel more connected to union decision-making."
+        },
+        {
+          "id": "candidate-13",
+          "name": "Leila Farah",
+          "position": "Unit 2 Representative",
+          "department": "Geography and Earth Sciences",
+          "email": "leila.farah@example.com",
+          "image": "assets/placeholder-profile.svg",
+          "statement": "I am running for Unit 2 Representative because contract academic workers deserve strong, visible advocacy. I want to focus on equity, workplace respect, and practical organizing that improves conditions across the unit."
+        }
+      ]
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
