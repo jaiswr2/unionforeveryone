@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" fill="none">
+  <rect width="960" height="720" fill="#F8EEE8"/>
+  <circle cx="480" cy="240" r="116" fill="#FDBF57" fill-opacity="0.95"/>
+  <path d="M290 612C290 508.171 374.171 424 478 424H482C585.829 424 670 508.171 670 612V720H290V612Z" fill="#7A003C"/>
+  <rect x="56" y="52" width="848" height="616" rx="36" stroke="#D22630" stroke-opacity="0.35" stroke-width="18"/>
+  <text x="480" y="120" text-anchor="middle" fill="#7A003C" font-family="Arial, sans-serif" font-size="42" font-weight="700">Replace with candidate photo</text>
+</svg>
